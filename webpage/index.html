@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate compare App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rate compare App</h1>
+        <p>Enter a dictionary in the format: <code>{'key1': 'value1', 'key2': 'value2', ...}</code></p>
+        <textarea id="input-text" rows="10"></textarea>
+        <button id="compare-button">Compare</button>
+        
+        <h3>Full Comparison Table</h3>
+        <div id="comparison-table"></div>
+        
+        <h3>Changes Table</h3>
+        <div class="radio-buttons">
+            <label><input type="radio" name="view-option" value="All" checked> All</label>
+            <label><input type="radio" name="view-option" value="Non-Available data only"> Non-Available data only</label>
+            <label><input type="radio" name="view-option" value="Input changes only"> Input changes only</label>
+        </div>
+        <div id="changes-table"></div>
+        
+        <h3>Data Visualizations</h3>
+        <canvas id="bar-chart"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

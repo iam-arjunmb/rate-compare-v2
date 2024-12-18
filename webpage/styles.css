@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.radio-buttons label {
+    margin-right: 20px;
+}
+
+#comparison-table, #changes-table {
+    margin-bottom: 20px;
+}
+
+#comparison-table table, #changes-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#comparison-table th, #comparison-table td, #changes-table th, #changes-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.highlight-red {
+    background-color: red;
+}
+
+.highlight-yellow {
+    background-color: yellow;
+}
